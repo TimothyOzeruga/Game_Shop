@@ -1,0 +1,83 @@
+[
+    {
+    "id": 1,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/one_crystal.png",
+    "amount": "x100",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 2,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/crystals_500.png",
+    "amount": "x500",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 3,
+    "bonus_image": "assets/img/bonus750.png",
+    "image": "assets/img/crystals_1000.png",
+    "amount": "x1000",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 4,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/crystals_4.png",
+    "amount": "x1500",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 5,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/crystals_5.png",
+    "amount": "x100",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 6,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/crystals_6.png",
+    "amount": "x500",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 7,
+    "bonus_image": "assets/img/bonus750.png",
+    "image": "assets/img/crystals_7.png",
+    "amount": "x1000",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 8,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/crystals_8.png",
+    "amount": "x1500",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    },
+    {
+    "id": 9,
+    "bonus_image": "assets/img/bonus500.png",
+    "image": "assets/img/crystals_9.png",
+    "amount": "x100",
+    "description": "Handful of Coins",
+    "buy":"Купить",
+    "price": 10
+    }
+]

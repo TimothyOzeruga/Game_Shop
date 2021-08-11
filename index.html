@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <ul class="header__items">
+            <li class="header__item item">
+                <a href="#" class="item__link link">
+                    <img src="assets/img/arrow.svg" alt="arrow_back_icon" class="link__picture">
+                    <span class="link__text">Back</span>
+                </a>
+            </li>
+            <li class="header__item item">
+                <div class="item__center">
+                    <img src="assets/img/coins.svg" alt="coins_icon" class="crystal_img">
+                    <div class="quantity_coins">
+                        <div class="numbers">100 254</div>
+                        <span>Coins</span>
+                    </div>
+                    <button type="button" class="square_buy">&#43;</button>
+                </div>
+                <div class="item__center">
+                    <img src="assets/img/crystals.svg" alt="coins_icon">
+                    <div class="quantity_coins">
+                        <div class="numbers">1 254</div>
+                        <span>Crystals</span>
+                    </div>
+                    <button type="button" class="square_buy">&#43;</button>
+                </div>
+            </li>
+            <li class="header__item item">
+                <a href="#" class="item__link item__link-right link">
+                    <img src="assets/img/home.svg" alt="home_icon" class="link__picture">
+                    <span class="link__text">Home</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main class="main">
+        <div class="tabs">
+            <div class="tabs__triggers">
+                <a href="#tab-1" class="tabs__triggers_item">Монстр Боксы</a>
+                <a href="#tab-2" class="tabs__triggers_item">Банк</a>
+                <a href="#tab-3" class="tabs__triggers_item">Наборы</a>
+                <a href="#tab-4" class="tabs__triggers_item word">Спецпредложения</a>
+                <a href="#tab-5" class="tabs__triggers_item word">Промокоды</a>
+            </div>
+            <div class="container">
+                <div class="tabs__content">
+                    <div id="tab-1" class="tabs__content_item">
+                        <h3 class="tabs__title">Кристаллы Незера</h3>
+                        <ul class="tabs__cards">
+                            <!-- <li class="tabs__card card">
+                                <img src="assets/img/bonus500.png" alt="bonus" class="card__bonus">
+                                <div class="img_wrap">
+                                    <img src="assets/img/one_crystal.png" alt="one_crystal" class="card__img">
+                                </div>
+                                <div class="card__text">
+                                    <div class="crystal_quant">x100</div>
+                                    <span>Handful of Coins</span>
+                                </div>
+                                <button type="button" class="card__btn btn">
+                                    <span class="btn__text">Купить</span>
+                                    <span class="btn__price"><span class="btn__dollar">&#36;</span> 10</span> 
+                                </button>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div id="tab-2" class="tabs__content_item">
+                        <h3 class="tabs__title">Кристаллы Незера</h3>
+                        <ul class="tabs__cards"></ul>
+                    </div>
+                    <div id="tab-3" class="tabs__content_item">
+                        <h3 class="tabs__title">Кристаллы Незера</h3>
+                        <ul class="tabs__cards"></ul>
+                    </div>
+                    <div id="tab-4" class="tabs__content_item">
+                        <h3 class="tabs__title">Кристаллы Незера</h3>
+                        <ul class="tabs__cards"></ul>
+                    </div>
+                    <div id="tab-5" class="tabs__content_item">
+                        <h3 class="tabs__title">Кристаллы Незера</h3>
+                        <ul class="tabs__cards"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
